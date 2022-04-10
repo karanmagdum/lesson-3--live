@@ -1,0 +1,21 @@
+body {
+    color: lightseagreen;
+}
+/* Much more organised, target many elements 
+Here h1, h2, body are called selectors*/
+
+h1 {
+    color:yellowgreen
+}
+
+h2 {
+    color: blueviolet;
+}
+
+#lib-header {
+    color:red;
+}
+
+.para {
+    color: black;
+}
