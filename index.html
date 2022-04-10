@@ -57,18 +57,18 @@
 
     <h2>@Lists</h2>
     <h3>Unordered list</h3>
-    <ul>
+    <ul class="list-non-bullet">
         <li>Item one</li>
         <li>Item two</li>
     </ul>
     <h3>Unordered Inline  List</h3>
     <!Will be done in CSS>
-    <ul>
-        <li>Inline item one</li>
-        <li>Inline item two</li>
+    <ul class="list-non-bullet">
+        <li class="list-item-inline">Inline item one</li>
+        <li class="list-item-inline">Inline item two</li>
     </ul>
     <h3>Reverse ordered List></h3><! Will be reversed in CSS>
-    <ol>
+    <ol reversed>
         <li>Milk</li>
         <li>Egg</li>
         <li>Bread</li>
@@ -79,18 +79,18 @@
 
     <h2>@Nav</h2>
 
-    <nav> <! Navigation bar>
-        <div>ThisIsBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
+    <nav class="navigation container"> <! Navigation bar>
+        <div class="nav-brand">ThisIsBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Products</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Products</a>
 
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
